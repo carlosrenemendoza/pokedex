@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.myCardChat {
+  background: #43dac5e8 !important;
+}
+
+.card {
+  background: rgb(205 205 205);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: 1.25rem !important;
+}
+
+.space {
+  height: 44px;
+}
+
+.listScroll {
+  overflow-y: auto;
+  overflow-x: auto;
+  max-height: 50em;
+}
+
+.title {
+  font-size: 9px;
+}
+.colorpath {
+  background: #474242;
+  color: white;
+  margin-right: -43px !important
+;
+}
+
+.myCardList {
+  cursor: pointer;
+  background: #43b6dae8;
+  margin-bottom: 3em;
+  transition: 0.3s !important;
+  box-shadow: 0 18px 16px 0 rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  margin-right: 28px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Userstyle {
+}
+
+.form-control:focus {
+  border-color: #009dff;
+}
+
+.myCard_Pokedex {
+  background: #da4343e8;
+  margin-bottom: 3em;
+  transition: 0.3s !important;
+  box-shadow: 0 18px 16px 0 rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  margin-right: 28px;
+}
+.myCard {
+  margin-bottom: 3em;
+  transition: 0.3s !important;
+  box-shadow: 0 18px 16px 0 rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  margin-right: 28px;
+}
+
+.center {
+  text-align: center;
+}
